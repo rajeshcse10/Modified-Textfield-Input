@@ -13,6 +13,8 @@
 		6D505A4A20BC57F30046CCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D505A4920BC57F30046CCEC /* Assets.xcassets */; };
 		6D505A4D20BC57F30046CCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D505A4B20BC57F30046CCEC /* LaunchScreen.storyboard */; };
 		6D505A5020BC57F30046CCEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D505A4F20BC57F30046CCEC /* main.m */; };
+		6D505A5820BC581C0046CCEC /* RawDataSynchronizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D505A5720BC581C0046CCEC /* RawDataSynchronizer.m */; };
+		6DC2E6E620C426CE003B0FB0 /* MyTextFieldUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC2E6E520C426CE003B0FB0 /* MyTextFieldUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		6D505A4C20BC57F30046CCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D505A4E20BC57F30046CCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D505A4F20BC57F30046CCEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D505A5620BC581C0046CCEC /* RawDataSynchronizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RawDataSynchronizer.h; sourceTree = "<group>"; };
+		6D505A5720BC581C0046CCEC /* RawDataSynchronizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RawDataSynchronizer.m; sourceTree = "<group>"; };
+		6DC2E6E420C426CE003B0FB0 /* MyTextFieldUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTextFieldUtils.h; sourceTree = "<group>"; };
+		6DC2E6E520C426CE003B0FB0 /* MyTextFieldUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTextFieldUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				6D505A4B20BC57F30046CCEC /* LaunchScreen.storyboard */,
 				6D505A4E20BC57F30046CCEC /* Info.plist */,
 				6D505A4F20BC57F30046CCEC /* main.m */,
+				6D505A5620BC581C0046CCEC /* RawDataSynchronizer.h */,
+				6D505A5720BC581C0046CCEC /* RawDataSynchronizer.m */,
+				6DC2E6E420C426CE003B0FB0 /* MyTextFieldUtils.h */,
+				6DC2E6E520C426CE003B0FB0 /* MyTextFieldUtils.m */,
 			);
 			path = LiveTracking;
 			sourceTree = "<group>";
@@ -143,6 +153,8 @@
 			files = (
 				6D505A4520BC57F20046CCEC /* ViewController.m in Sources */,
 				6D505A5020BC57F30046CCEC /* main.m in Sources */,
+				6DC2E6E620C426CE003B0FB0 /* MyTextFieldUtils.m in Sources */,
+				6D505A5820BC581C0046CCEC /* RawDataSynchronizer.m in Sources */,
 				6D505A4220BC57F20046CCEC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
